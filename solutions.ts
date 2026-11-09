@@ -25,7 +25,7 @@ function processInput(input: string | number | boolean): string | number
 function formatCoordinate(coordinates: readonly [number, number, string]): string 
 {
   const latitude = coordinates[0];
-  const longitude = coordinates[1]
+  const longitude = coordinates[1];
   const locationName = coordinates[2];
   return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
